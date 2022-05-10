@@ -4,6 +4,7 @@ import org.openrndr.color.rgb
 import kotlin.math.cos
 
 suspend fun main() = applicationAsync {
+    println(org.openrndr.webgl.applicationWebGLInitializer)
     program {
         extend {
             val a = rgb("#ff0000")
